@@ -1,0 +1,76 @@
+#========================================================================================
+# ARCHIVOS GENERADOS POR EL SISTEMA OPERATIVO Y HERRAMIENTAS COMUNES
+#========================================================================================
+
+# Archivos de caché y miniaturas de Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+
+# Archivos de metadatos de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+#========================================================================================
+# ARCHIVOS GENERADOS POR VISUAL STUDIO Y .NET
+#========================================================================================
+
+# Archivos de solución y proyecto específicos del usuario
+# (Guardan la configuración de tus ventanas, breakpoints, etc.)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Carpetas de caché y configuración de Visual Studio
+.vs/
+.vscode/
+
+# Archivos de compilación y artefactos (¡los más importantes!)
+# Contienen los ejecutables (.exe, .dll) que se generan al compilar
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+
+# Archivos de resultados de pruebas y cobertura de código
+TestResults/
+*.trx
+*.coverlet.json
+
+# Paquetes de NuGet (se deben restaurar, no guardar en el repositorio)
+packages/
+*.nupkg
+*.snupkg
+
+# Archivos generados por herramientas de .NET
+project.lock.json
+project.assets.json
+
+# Archivos de respaldo y temporales
+*.[Pp]db
+*.[Cc]ache
+*.orig
+
+#========================================================================================
+# REGLAS ESPECÍFICAS PARA AL Y DYNAMICS 365 BUSINESS CENTRAL (Tus reglas)
+#========================================================================================
+
+# Carpetas de caché, símbolos y snapshots
+.alcache/
+.alpackages/
+.snapshots/
+.output/
+
+# Archivos de la extensión y desarrollo
+*.app
+rad.json
+
+# Archivos de traducción y licencia
+*.g.xlf
+*.flf
+
+# Resultados de pruebas de AL
+TestResults.xml
